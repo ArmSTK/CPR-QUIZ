@@ -1,11 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f9;
+    background-color: #2bf304;
+}
+h1, #result3{
+ 
+   text-align: center;
 }
 
 .quiz-container {
@@ -30,4 +34,14 @@ body {
 
 .button:hover {
     background-color: #0056b3;
+}
+
+
+.profile-detail {
+  background-color: white; 
+  width: 60%; 
+  margin: 5% auto 5% auto;
+  padding: 5%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #333333
 }
